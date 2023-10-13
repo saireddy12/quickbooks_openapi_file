@@ -391,7 +391,7 @@
                     }
                 ],
                 "requestBody": {
-                    "description": "",
+                    "description": "Select * from Account STARTPOSITION 1 MAXRESULTS 5\n\nsql query for the given question, tableName: Account\n\nto get all active Account: 'select * from Account where Active'\nto get Account from 1 to 5 : 'select * from Account startposition 1 maxresults 5'\nto get Account from 24th may 2023 to 30th november 2023: 'SELECT * FROM Account WHERE MetaData.CreateTime >= '2023-05-24T00:00:00' AND MetaData.CreateTime <= '2023-11-30T23:59:59''\nto get Account from 2003 to 2023 : 'SELECT * FROM Account WHERE Active AND MetaData.CreateTime >= '2003-01-01' AND  MetaData.CreateTime <= '2023-12-31'' ",
                     "content": {
                         "application/text": {
                             "schema": {
@@ -973,7 +973,7 @@
                     }
                 ],
                 "requestBody": {
-                    "description": "",
+                    "description": "Select * from Attachable\nsql query for the given question, tableName: Attachable\n\nto get all active Attachable: 'select * from Attachable where Active'\nto get Attachable from 1 to 5 : 'select * from Attachable startposition 1 maxresults 5'\nto get Attachable from 24th may 2023 to 30th november 2023: 'SELECT * FROM Attachable WHERE MetaData.CreateTime >= '2023-05-24T00:00:00' AND MetaData.CreateTime <= '2023-11-30T23:59:59''\nto get Attachable from 2003 to 2023 : 'SELECT * FROM Attachable WHERE Active AND MetaData.CreateTime >= '2003-01-01' AND  MetaData.CreateTime <= '2023-12-31'' ",
                     "content": {
                         "application/text": {
                             "schema": {
@@ -1652,7 +1652,7 @@
                     }
                 ],
                 "requestBody": {
-                    "description": "",
+                    "description": "Select * from Bill startposition 1 maxresults 5\nsql query for the given question, tableName: Bill\n\nto get all active Bill: 'select * from Bill where Active'\nto get Bill from 1 to 5 : 'select * from Bill startposition 1 maxresults 5'\nto get Bill from 24th may 2023 to 30th november 2023: 'SELECT * FROM Bill WHERE MetaData.CreateTime >= '2023-05-24T00:00:00' AND MetaData.CreateTime <= '2023-11-30T23:59:59''\nto get Bill from 2003 to 2023 : 'SELECT * FROM Bill WHERE Active AND MetaData.CreateTime >= '2003-01-01' AND  MetaData.CreateTime <= '2023-12-31'' ",
                     "content": {
                         "application/text": {
                             "schema": {
@@ -2081,7 +2081,7 @@
                     }
                 ],
                 "requestBody": {
-                    "description": "",
+                    "description": "Select * from BillPayment startposition 1 maxresults 5\nsql query for the given question, tableName: BillPayment\n\nto get all active BillPayment: 'select * from BillPayment where Active'\nto get BillPayment from 1 to 5 : 'select * from BillPayment startposition 1 maxresults 5'\nto get BillPayment from 24th may 2023 to 30th november 2023: 'SELECT * FROM BillPayment WHERE MetaData.CreateTime >= '2023-05-24T00:00:00' AND MetaData.CreateTime <= '2023-11-30T23:59:59''\nto get BillPayment from 2003 to 2023 : 'SELECT * FROM BillPayment WHERE Active AND MetaData.CreateTime >= '2003-01-01' AND  MetaData.CreateTime <= '2023-12-31'' ",
                     "content": {
                         "application/text": {
                             "schema": {
@@ -2319,7 +2319,7 @@
                     }
                 ],
                 "requestBody": {
-                    "description": "",
+                    "description": "Select * from Budget startposition 1 maxresults 5\nsql query for the given question, tableName: Budget\n\nto get all active Budget: 'select * from Budget where Active'\nto get Budget from 1 to 5 : 'select * from Budget startposition 1 maxresults 5'\nto get Budget from 24th may 2023 to 30th november 2023: 'SELECT * FROM Budget WHERE MetaData.CreateTime >= '2023-05-24T00:00:00' AND MetaData.CreateTime <= '2023-11-30T23:59:59''\nto get Budget from 2003 to 2023 : 'SELECT * FROM Budget WHERE Active AND MetaData.CreateTime >= '2003-01-01' AND  MetaData.CreateTime <= '2023-12-31'' ",
                     "content": {
                         "application/text": {
                             "schema": {
@@ -2921,7 +2921,7 @@
                     }
                 ],
                 "requestBody": {
-                    "description": "",
+                    "description": "Select * from Class startposition 1 maxresults 5\nsql query for the given question, tableName: Class\n\nto get all active Class: 'select * from Class where Active'\nto get Class from 1 to 5 : 'select * from Class startposition 1 maxresults 5'\nto get Class from 24th may 2023 to 30th november 2023: 'SELECT * FROM Class WHERE MetaData.CreateTime >= '2023-05-24T00:00:00' AND MetaData.CreateTime <= '2023-11-30T23:59:59''\nto get Class from 2003 to 2023 : 'SELECT * FROM Class WHERE Active AND MetaData.CreateTime >= '2003-01-01' AND  MetaData.CreateTime <= '2023-12-31'' ",
                     "content": {
                         "application/text": {
                             "schema": {
@@ -3114,7 +3114,7 @@
                     }
                 ],
                 "requestBody": {
-                    "description": "",
+                    "description": "Select * from CompanyInfo\nsql query for the given question, tableName: CompanyInfo\n\nto get all active CompanyInfo: 'select * from CompanyInfo where Active'\nto get CompanyInfo from 1 to 5 : 'select * from CompanyInfo startposition 1 maxresults 5'\nto get CompanyInfo from 24th may 2023 to 30th november 2023: 'SELECT * FROM CompanyInfo WHERE MetaData.CreateTime >= '2023-05-24T00:00:00' AND MetaData.CreateTime <= '2023-11-30T23:59:59''\nto get CompanyInfo from 2003 to 2023 : 'SELECT * FROM CompanyInfo WHERE Active AND MetaData.CreateTime >= '2003-01-01' AND  MetaData.CreateTime <= '2023-12-31'' ",
                     "content": {
                         "application/text": {
                             "schema": {
@@ -3675,7 +3675,7 @@
                     }
                 ],
                 "requestBody": {
-                    "description": "",
+                    "description": "Select * from CreditMemo startposition 1 maxresults 5\nsql query for the given question, tableName: CreditMemo\n\nto get all active CreditMemo: 'select * from CreditMemo where Active'\nto get CreditMemo from 1 to 5 : 'select * from CreditMemo startposition 1 maxresults 5'\nto get CreditMemo from 24th may 2023 to 30th november 2023: 'SELECT * FROM CreditMemo WHERE MetaData.CreateTime >= '2023-05-24T00:00:00' AND MetaData.CreateTime <= '2023-11-30T23:59:59''\nto get CreditMemo from 2003 to 2023 : 'SELECT * FROM CreditMemo WHERE Active AND MetaData.CreateTime >= '2003-01-01' AND  MetaData.CreateTime <= '2023-12-31'' ",
                     "content": {
                         "application/text": {
                             "schema": {
@@ -4354,7 +4354,7 @@
                     }
                 ],
                 "requestBody": {
-                    "description": "",
+                    "description": "Select * from Customer startposition 1 maxresults 5\nsql query for the given question, tableName: Customer\n\nto get all active Customer: 'select * from Customer where Active'\nto get Customer from 1 to 5 : 'select * from Customer startposition 1 maxresults 5'\nto get Customer from 24th may 2023 to 30th november 2023: 'SELECT * FROM Customer WHERE MetaData.CreateTime >= '2023-05-24T00:00:00' AND MetaData.CreateTime <= '2023-11-30T23:59:59''\nto get Customer from 2003 to 2023 : 'SELECT * FROM Customer WHERE Active AND MetaData.CreateTime >= '2003-01-01' AND  MetaData.CreateTime <= '2023-12-31'' ",
                     "content": {
                         "application/text": {
                             "schema": {
@@ -4852,7 +4852,7 @@
                     }
                 ],
                 "requestBody": {
-                    "description": "",
+                    "description": "Select * from Department startposition 1 maxresults 5\nsql query for the given question, tableName: Department\n\nto get all active Department: 'select * from Department where Active'\nto get Department from 1 to 5 : 'select * from Department startposition 1 maxresults 5'\nto get Department from 24th may 2023 to 30th november 2023: 'SELECT * FROM Department WHERE MetaData.CreateTime >= '2023-05-24T00:00:00' AND MetaData.CreateTime <= '2023-11-30T23:59:59''\nto get Department from 2003 to 2023 : 'SELECT * FROM Department WHERE Active AND MetaData.CreateTime >= '2003-01-01' AND  MetaData.CreateTime <= '2023-12-31'' ",
                     "content": {
                         "application/text": {
                             "schema": {
@@ -5422,7 +5422,7 @@
                     }
                 ],
                 "requestBody": {
-                    "description": "",
+                    "description": "select * from Deposit startposition 1 maxresults 5\nsql query for the given question, tableName: Deposit\n\nto get all active Deposit: 'select * from Deposit where Active'\nto get Deposit from 1 to 5 : 'select * from Deposit startposition 1 maxresults 5'\nto get Deposit from 24th may 2023 to 30th november 2023: 'SELECT * FROM Deposit WHERE MetaData.CreateTime >= '2023-05-24T00:00:00' AND MetaData.CreateTime <= '2023-11-30T23:59:59''\nto get Deposit from 2003 to 2023 : 'SELECT * FROM Deposit WHERE Active AND MetaData.CreateTime >= '2003-01-01' AND  MetaData.CreateTime <= '2023-12-31'' ",
                     "content": {
                         "application/text": {
                             "schema": {
@@ -6012,7 +6012,7 @@
                     }
                 ],
                 "requestBody": {
-                    "description": "",
+                    "description": "select * from employee startposition 1 maxresults 5\nsql query for the given question, tableName: employee\n\nto get all active Employee: 'select * from employee where Active'\nto get Employee from 1 to 5 : 'select * from employee startposition 1 maxresults 5'\nto get Employee from 24th may 2023 to 30th november 2023: 'SELECT * FROM employee WHERE MetaData.CreateTime >= '2023-05-24T00:00:00' AND MetaData.CreateTime <= '2023-11-30T23:59:59''\nto get Employee from 2003 to 2023 : 'SELECT * FROM employee WHERE Active AND MetaData.CreateTime >= '2003-01-01' AND  MetaData.CreateTime <= '2023-12-31'' ",
                     "content": {
                         "application/text": {
                             "schema": {
@@ -6540,7 +6540,7 @@
                 ]
             }
         },
-        "/query/dupe_extra_path_111": {
+        "/query/dupe_extra_path_12": {
             "post": {
                 "tags": [
                     "Estimate"
@@ -6595,7 +6595,7 @@
                     }
                 ],
                 "requestBody": {
-                    "description": "",
+                    "description": "select * from estimate startposition 1 maxresults 5\nsql query for the given question, tableName: estimate\n\nto get all active Estimate: 'select * from estimate where Active'\nto get Estimate from 1 to 5 : 'select * from estimate startposition 1 maxresults 5'\nto get Estimate from 24th may 2023 to 30th november 2023: 'SELECT * FROM estimate WHERE MetaData.CreateTime >= '2023-05-24T00:00:00' AND MetaData.CreateTime <= '2023-11-30T23:59:59''\nto get Estimate from 2003 to 2023 : 'SELECT * FROM estimate WHERE Active AND MetaData.CreateTime >= '2003-01-01' AND  MetaData.CreateTime <= '2023-12-31'' ",
                     "content": {
                         "application/text": {
                             "schema": {
@@ -6757,7 +6757,7 @@
                 "operationId": "ExchangeRate-Query",
                 "parameters": [
                     {
-                        "name": "query",
+                        "name": "sourcecurrencycode",
                         "in": "query",
                         "description": "",
                         "required": true,
@@ -6765,7 +6765,7 @@
                         "explode": true,
                         "schema": {
                             "type": "string",
-                            "example": "select * from exchangerate where sourcecurrencycode in ('EUR', 'INR') and asofdate='2017-07-07'"
+                            "example": "Currencey code example: USD,INR"
                         }
                     },
                     {
@@ -7480,7 +7480,7 @@
                     }
                 ],
                 "requestBody": {
-                    "description": "",
+                    "description": "select * from invoice startposition 1 maxresults 5\nsql query for the given question, tableName: invoice\n\nto get all active Invoice: 'select * from invoice where Active'\nto get Invoice from 1 to 5 : 'select * from invoice startposition 1 maxresults 5'\nto get Invoice from 24th may 2023 to 30th november 2023: 'SELECT * FROM invoice WHERE MetaData.CreateTime >= '2023-05-24T00:00:00' AND MetaData.CreateTime <= '2023-11-30T23:59:59''\nto get Invoice from 2003 to 2023 : 'SELECT * FROM invoice WHERE Active AND MetaData.CreateTime >= '2003-01-01' AND  MetaData.CreateTime <= '2023-12-31'' ",
                     "content": {
                         "application/text": {
                             "schema": {
@@ -8197,7 +8197,7 @@
                     }
                 ],
                 "requestBody": {
-                    "description": "",
+                    "description": "select * from item startposition 1 maxresults 5\nsql query for the given question, tableName: item\n\nto get all active Item: 'select * from item where Active'\nto get Item from 1 to 5 : 'select * from item startposition 1 maxresults 5'\nto get Item from 24th may 2023 to 30th november 2023: 'SELECT * FROM item WHERE MetaData.CreateTime >= '2023-05-24T00:00:00' AND MetaData.CreateTime <= '2023-11-30T23:59:59''\nto get Item from 2003 to 2023 : 'SELECT * FROM item WHERE Active AND MetaData.CreateTime >= '2003-01-01' AND  MetaData.CreateTime <= '2023-12-31'' ",
                     "content": {
                         "application/text": {
                             "schema": {
@@ -8811,7 +8811,7 @@
                     }
                 ],
                 "requestBody": {
-                    "description": "",
+                    "description": "select * from journalentry startposition 1 maxresults 5\nsql query for the given question, tableName: journalentry\n\nto get all active JournalEntry: 'select * from journalentry where Active'\nto get JournalEntry from 1 to 5 : 'select * from journalentry startposition 1 maxresults 5'\nto get JournalEntry from 24th may 2023 to 30th november 2023: 'SELECT * FROM journalentry WHERE MetaData.CreateTime >= '2023-05-24T00:00:00' AND MetaData.CreateTime <= '2023-11-30T23:59:59''\nto get JournalEntry from 2003 to 2023 : 'SELECT * FROM journalentry WHERE Active AND MetaData.CreateTime >= '2003-01-01' AND  MetaData.CreateTime <= '2023-12-31'' ",
                     "content": {
                         "application/text": {
                             "schema": {
@@ -9884,7 +9884,7 @@
                     }
                 ],
                 "requestBody": {
-                    "description": "",
+                    "description": "select * from paymentmethod startposition 1 maxresults 5\nsql query for the given question, tableName: paymentmethod\n\nto get all active PaymentMethod: 'select * from paymentmethod where Active'\nto get PaymentMethod from 1 to 5 : 'select * from paymentmethod startposition 1 maxresults 5'\nto get PaymentMethod from 24th may 2023 to 30th november 2023: 'SELECT * FROM paymentmethod WHERE MetaData.CreateTime >= '2023-05-24T00:00:00' AND MetaData.CreateTime <= '2023-11-30T23:59:59''\nto get PaymentMethod from 2003 to 2023 : 'SELECT * FROM paymentmethod WHERE Active AND MetaData.CreateTime >= '2003-01-01' AND  MetaData.CreateTime <= '2023-12-31'' ",
                     "content": {
                         "application/text": {
                             "schema": {
@@ -9975,7 +9975,7 @@
                     }
                 ],
                 "requestBody": {
-                    "description": "",
+                    "description": "select * from preferences \nsql query for the given question, tableName: preferences\n\nto get all active Preferences: 'select * from preferences where Active'\nto get Preferences from 1 to 5 : 'select * from preferences startposition 1 maxresults 5'\nto get Preferences from 24th may 2023 to 30th november 2023: 'SELECT * FROM preferences WHERE MetaData.CreateTime >= '2023-05-24T00:00:00' AND MetaData.CreateTime <= '2023-11-30T23:59:59''\nto get Preferences from 2003 to 2023 : 'SELECT * FROM preferences WHERE Active AND MetaData.CreateTime >= '2003-01-01' AND  MetaData.CreateTime <= '2023-12-31'' ",
                     "content": {
                         "application/text": {
                             "schema": {
@@ -11142,7 +11142,7 @@
                     }
                 ],
                 "requestBody": {
-                    "description": "",
+                    "description": "select * from purchase startposition 1 maxresults 5\nsql query for the given question, tableName: purchase\n\nto get all active Purchase: 'select * from purchase where Active'\nto get Purchase from 1 to 5 : 'select * from purchase startposition 1 maxresults 5'\nto get Purchase from 24th may 2023 to 30th november 2023: 'SELECT * FROM purchase WHERE MetaData.CreateTime >= '2023-05-24T00:00:00' AND MetaData.CreateTime <= '2023-11-30T23:59:59''\nto get Purchase from 2003 to 2023 : 'SELECT * FROM purchase WHERE Active AND MetaData.CreateTime >= '2003-01-01' AND  MetaData.CreateTime <= '2023-12-31'' ",
                     "content": {
                         "application/text": {
                             "schema": {
@@ -11802,7 +11802,7 @@
                     }
                 ],
                 "requestBody": {
-                    "description": "",
+                    "description": "select * from purchaseorder startposition 1 maxresults 5\nsql query for the given question, tableName: purchaseorder\n\nto get all active PurchaseOrder: 'select * from purchaseorder where Active'\nto get PurchaseOrder from 1 to 5 : 'select * from purchaseorder startposition 1 maxresults 5'\nto get PurchaseOrder from 24th may 2023 to 30th november 2023: 'SELECT * FROM purchaseorder WHERE MetaData.CreateTime >= '2023-05-24T00:00:00' AND MetaData.CreateTime <= '2023-11-30T23:59:59''\nto get PurchaseOrder from 2003 to 2023 : 'SELECT * FROM purchaseorder WHERE Active AND MetaData.CreateTime >= '2003-01-01' AND  MetaData.CreateTime <= '2023-12-31'' ",
                     "content": {
                         "application/text": {
                             "schema": {
@@ -12426,7 +12426,7 @@
                     }
                 ],
                 "requestBody": {
-                    "description": "",
+                    "description": "select * from refundreceipt startposition 1 maxresults 5\nsql query for the given question, tableName: refundreceipt\n\nto get all active RefundReceipt: 'select * from refundreceipt where Active'\nto get RefundReceipt from 1 to 5 : 'select * from refundreceipt startposition 1 maxresults 5'\nto get RefundReceipt from 24th may 2023 to 30th november 2023: 'SELECT * FROM refundreceipt WHERE MetaData.CreateTime >= '2023-05-24T00:00:00' AND MetaData.CreateTime <= '2023-11-30T23:59:59''\nto get RefundReceipt from 2003 to 2023 : 'SELECT * FROM refundreceipt WHERE Active AND MetaData.CreateTime >= '2003-01-01' AND  MetaData.CreateTime <= '2023-12-31'' ",
                     "content": {
                         "application/text": {
                             "schema": {
@@ -14852,7 +14852,7 @@
                     }
                 ],
                 "requestBody": {
-                    "description": "",
+                    "description": "select * from salesreceipt startposition 1 maxresults 5\nsql query for the given question, tableName: salesreceipt\n\nto get all active SalesReceipt: 'select * from salesreceipt where Active'\nto get SalesReceipt from 1 to 5 : 'select * from salesreceipt startposition 1 maxresults 5'\nto get SalesReceipt from 24th may 2023 to 30th november 2023: 'SELECT * FROM salesreceipt WHERE MetaData.CreateTime >= '2023-05-24T00:00:00' AND MetaData.CreateTime <= '2023-11-30T23:59:59''\nto get SalesReceipt from 2003 to 2023 : 'SELECT * FROM salesreceipt WHERE Active AND MetaData.CreateTime >= '2003-01-01' AND  MetaData.CreateTime <= '2023-12-31'' ",
                     "content": {
                         "application/text": {
                             "schema": {
@@ -15249,7 +15249,7 @@
                     }
                 ],
                 "requestBody": {
-                    "description": "",
+                    "description": "select * from taxagency startposition 1 maxresults 5\nsql query for the given question, tableName: taxagency\n\nto get all active TaxAgency: 'select * from taxagency where Active'\nto get TaxAgency from 1 to 5 : 'select * from taxagency startposition 1 maxresults 5'\nto get TaxAgency from 24th may 2023 to 30th november 2023: 'SELECT * FROM taxagency WHERE MetaData.CreateTime >= '2023-05-24T00:00:00' AND MetaData.CreateTime <= '2023-11-30T23:59:59''\nto get TaxAgency from 2003 to 2023 : 'SELECT * FROM taxagency WHERE Active AND MetaData.CreateTime >= '2003-01-01' AND  MetaData.CreateTime <= '2023-12-31'' ",
                     "content": {
                         "application/text": {
                             "schema": {
@@ -15340,7 +15340,7 @@
                     }
                 ],
                 "requestBody": {
-                    "description": "",
+                    "description": "select * from taxcode startposition 1 maxresults 5\nsql query for the given question, tableName: taxcode\n\nto get all active TaxCode: 'select * from taxcode where Active'\nto get TaxCode from 1 to 5 : 'select * from taxcode startposition 1 maxresults 5'\nto get TaxCode from 24th may 2023 to 30th november 2023: 'SELECT * FROM taxcode WHERE MetaData.CreateTime >= '2023-05-24T00:00:00' AND MetaData.CreateTime <= '2023-11-30T23:59:59''\nto get TaxCode from 2003 to 2023 : 'SELECT * FROM taxcode WHERE Active AND MetaData.CreateTime >= '2003-01-01' AND  MetaData.CreateTime <= '2023-12-31'' ",
                     "content": {
                         "application/text": {
                             "schema": {
@@ -15533,7 +15533,7 @@
                     }
                 ],
                 "requestBody": {
-                    "description": "",
+                    "description": "select * from taxrate startposition 1 maxresults 5\nsql query for the given question, tableName: taxrate\n\nto get all active TaxRate: 'select * from taxrate where Active'\nto get TaxRate from 1 to 5 : 'select * from taxrate startposition 1 maxresults 5'\nto get TaxRate from 24th may 2023 to 30th november 2023: 'SELECT * FROM taxrate WHERE MetaData.CreateTime >= '2023-05-24T00:00:00' AND MetaData.CreateTime <= '2023-11-30T23:59:59''\nto get TaxRate from 2003 to 2023 : 'SELECT * FROM taxrate WHERE Active AND MetaData.CreateTime >= '2003-01-01' AND  MetaData.CreateTime <= '2023-12-31'' ",
                     "content": {
                         "application/text": {
                             "schema": {
@@ -16242,7 +16242,7 @@
                     }
                 ],
                 "requestBody": {
-                    "description": "",
+                    "description": "select * from term startposition 1 maxresults 5\nsql query for the given question, tableName: term\n\nto get all active Term: 'select * from term where Active'\nto get Term from 1 to 5 : 'select * from term startposition 1 maxresults 5'\nto get Term from 24th may 2023 to 30th november 2023: 'SELECT * FROM term WHERE MetaData.CreateTime >= '2023-05-24T00:00:00' AND MetaData.CreateTime <= '2023-11-30T23:59:59''\nto get Term from 2003 to 2023 : 'SELECT * FROM term WHERE Active AND MetaData.CreateTime >= '2003-01-01' AND  MetaData.CreateTime <= '2023-12-31'' ",
                     "content": {
                         "application/text": {
                             "schema": {
@@ -16823,7 +16823,7 @@
                     }
                 ],
                 "requestBody": {
-                    "description": "",
+                    "description": "select * from timeactivity startposition 1 maxresults 5\nsql query for the given question, tableName: timeactivity\n\nto get all active TimeActivity: 'select * from timeactivity where Active'\nto get TimeActivity from 1 to 5 : 'select * from timeactivity startposition 1 maxresults 5'\nto get TimeActivity from 24th may 2023 to 30th november 2023: 'SELECT * FROM timeactivity WHERE MetaData.CreateTime >= '2023-05-24T00:00:00' AND MetaData.CreateTime <= '2023-11-30T23:59:59''\nto get TimeActivity from 2003 to 2023 : 'SELECT * FROM timeactivity WHERE Active AND MetaData.CreateTime >= '2003-01-01' AND  MetaData.CreateTime <= '2023-12-31'' ",
                     "content": {
                         "application/text": {
                             "schema": {
@@ -17359,7 +17359,7 @@
                     }
                 ],
                 "requestBody": {
-                    "description": "",
+                    "description": "select * from transfer startposition 1 maxresults 5\nsql query for the given question, tableName: transfer\n\nto get all active Transfer: 'select * from transfer where Active'\nto get Transfer from 1 to 5 : 'select * from transfer startposition 1 maxresults 5'\nto get Transfer from 24th may 2023 to 30th november 2023: 'SELECT * FROM transfer WHERE MetaData.CreateTime >= '2023-05-24T00:00:00' AND MetaData.CreateTime <= '2023-11-30T23:59:59''\nto get Transfer from 2003 to 2023 : 'SELECT * FROM transfer WHERE Active AND MetaData.CreateTime >= '2003-01-01' AND  MetaData.CreateTime <= '2023-12-31'' ",
                     "content": {
                         "application/text": {
                             "schema": {
@@ -18065,7 +18065,7 @@
                     }
                 ],
                 "requestBody": {
-                    "description": "",
+                    "description": "select * from vendor startposition 1 maxresults 5\nsql query for the given question, tableName: vendor\n\nto get all active Vendor: 'select * from vendor where Active'\nto get Vendor from 1 to 5 : 'select * from vendor startposition 1 maxresults 5'\nto get Vendor from 24th may 2023 to 30th november 2023: 'SELECT * FROM vendor WHERE MetaData.CreateTime >= '2023-05-24T00:00:00' AND MetaData.CreateTime <= '2023-11-30T23:59:59''\nto get Vendor from 2003 to 2023 : 'SELECT * FROM vendor WHERE Active AND MetaData.CreateTime >= '2003-01-01' AND  MetaData.CreateTime <= '2023-12-31'' ",
                     "content": {
                         "application/text": {
                             "schema": {
@@ -18156,7 +18156,7 @@
                     }
                 ],
                 "requestBody": {
-                    "description": "",
+                    "description": "select * from vendorcredit startposition 1 maxresults 5\nsql query for the given question, tableName: vendorcredit\n\nto get all active VendorCredit: 'select * from vendorcredit where Active'\nto get VendorCredit from 1 to 5 : 'select * from vendorcredit startposition 1 maxresults 5'\nto get VendorCredit from 24th may 2023 to 30th november 2023: 'SELECT * FROM vendorcredit WHERE MetaData.CreateTime >= '2023-05-24T00:00:00' AND MetaData.CreateTime <= '2023-11-30T23:59:59''\nto get VendorCredit from 2003 to 2023 : 'SELECT * FROM vendorcredit WHERE Active AND MetaData.CreateTime >= '2003-01-01' AND  MetaData.CreateTime <= '2023-12-31'' ",
                     "content": {
                         "application/text": {
                             "schema": {
@@ -18934,8 +18934,7 @@
                         "allOf": [
                             {
                                 "$ref": "#/components/schemas/EntityRef"
-                            },
-                            {}
+                            }
                         ]
                     },
                     "IncludeOnSend": {
@@ -19002,8 +19001,7 @@
                         "allOf": [
                             {
                                 "$ref": "#/components/schemas/MetaData"
-                            },
-                            {}
+                            }
                         ]
                     },
                     "AttachableRef": {
@@ -19067,8 +19065,7 @@
                         "allOf": [
                             {
                                 "$ref": "#/components/schemas/EntityRef"
-                            },
-                            {}
+                            }
                         ]
                     },
                     "IncludeOnSend": {
